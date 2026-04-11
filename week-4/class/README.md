@@ -127,16 +127,18 @@ This next step is for *Windows users only*. For Windows users VS Code's integrat
 ![](../assets/defaultprofile.PNG)
 
 Continuing the step for windows users, we need to choose Git Bash in the menu at the top of the screen that opens (this is called the command palette):
+
 ![](../assets/cmd-pal.png)
 
 
 Finally for windows users, click the new terminal button in the panel:
+
 ![](../assets/new-terminal.PNG)
 
 At this point you can close any terminals (on MacOS or Git bash) that are running *outside* of VS code. You should have the GCP console open and the SEIR-1 repo in a web browser. That is all that is needed. 
 
-[VS Code docs](https://code.visualstudio.com/docs/getstarted/userinterface)
-[What VS Code should roughly look like now](./assets/code-end.PNG)
+- [VS Code docs](https://code.visualstudio.com/docs/getstarted/userinterface)
+- [What VS Code should roughly look like now](./assets/code-end.PNG)
 
 ## Basic Terraform structure
 
