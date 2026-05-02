@@ -15,7 +15,7 @@ A very basic diagram of what we are building can be found here. This diagram sho
 
 
 ![](../assets/regional-ext-https-lb.svg) 
-![](../assets/http-regional-l7xlb.svg)
+![](../assets/full-basic-architecture.png)
 
 Next we see a Regional External Application Load Balancer's internal workings. We will be using a regional load balancer for today's lab (meaning it can use backends in the regional the LB itself is in as opposed to global LBs). This is everything that makes up the load balancer. Keep this in mind. 
 
