@@ -1,13 +1,15 @@
 # SEIR-1/Class 7.5: Prep notes for week 8
 
 ## Introduction
+The goal is to create a managed instance group and regional external application load balancer. 
 
 ## Background info
 
-- Load Balancing:
-- Proxy
-- Autohealing 
-- Autoscaling 
+- Load Balancing: A process to distribute network traffic across multiple servers (VMs)
+- Proxy: an intermediary between a client and destination server that forwards web requests
+- Autoscaling: a key concept in cloud computing that uses a tool called health checks that probes servers to ensure they are running properly and if not terminates the instance and creates a new one
+- Autohealing: a key concept in cloud computing that automatically adds or removes servers based on some metric
+
 
 ## Architecture discussion 
 ![](../assets/external-application-load-balancer.svg) 
