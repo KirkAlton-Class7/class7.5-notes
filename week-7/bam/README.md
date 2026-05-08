@@ -11,7 +11,7 @@ Deploy a proof-of-concept (POC) static website that is entirely automated with G
 3. Open VS Code.
 4. Open the terminal in VS Code.
 5. Use `pwd` to make sure you are in the right folder.
-6. Run this command to download the needed assets: `curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7.5-notes/refs/heads/main/week-7/bam/download-assets.sh | sh`
+6. Run this command to download the needed assets: `curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7-5-notes/refs/heads/main/week-7/bam/download-assets.sh | sh`
 7. Make your `provider.tf`, `backend.tf`, and such as we have done in class.
 8. Make a basic bucket in a `main.tf` file (or whatever you call it).
 9. Make sure it works.

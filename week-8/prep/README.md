@@ -1,4 +1,4 @@
-# SEIR-1/Class 7.5: Prep notes for week 8
+# SEIR-1/Class7-5: Prep notes for week 8
 
 ## Introduction
 The goal is to create a managed instance group and regional external application load balancer. 

@@ -1,4 +1,4 @@
-# Class 7.5 / SEIR-1: Week 1 Summary notes
+# Class7-5 / SEIR-1: Week 1 Summary notes
 
 ## Table of Contents
 * [Introduction](#introduction)

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- CONFIGURATION ---
-TARGET_DIR="$HOME/Documents/TheoWAF/class7.5/GCP/Terraform"
+TARGET_DIR="$HOME/Documents/TheoWAF/class7-5/gcp/Terraform"
 WEEK_DIR="$TARGET_DIR/my-first-terraform-project"
 
 echo "--- STEP 1: TARGET DIRECTORY CHECK ---"
@@ -9,7 +9,7 @@ if [ -d "$TARGET_DIR" ]; then
     echo "Target directory '$TARGET_DIR' exists."
 else
     mkdir -p "$TARGET_DIR"
-    echo "Warning: TheoWAF Class 7.5 directory did not exist but was successfully created, are you sure you ran the installs script?"
+    echo "Warning: TheoWAF Class7-5 directory did not exist but was successfully created, are you sure you ran the installs script?"
 fi
 
 echo -e "\n--- STEP 2: TOOLING CHECK (VS CODE + JQ) ---"

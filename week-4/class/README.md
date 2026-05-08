@@ -1,4 +1,4 @@
-# Class 7.5 / SEIR-1: Week 4 Class notes - Theo's introduction to Terraform
+# Class7-5 / SEIR-1: Week 4 Class notes - Theo's introduction to Terraform
 
 ---
 
@@ -39,14 +39,14 @@ The script checks the following:
 
 - Google Cloud SDK (in particular, `gcloud`) is installed and authenticated
 - Terraform binary is installed and up to date
-- TheoWAF folder present at `~/Documents/TheoWAF/class7.5/GCP/Terraform`
+- TheoWAF folder present at `~/Documents/TheoWAF/class7-5/gcp/Terraform`
 - Creates a `.gitignore` file
 - Verifies a JSON token is present in the `Terraform` directory
 
 It will create the TheoWAF folder structure if needed and will download a `.gitignore` file configured for Terraform projects. Run this in the Terminal app in MacOS or Git Bash (as an administrator) in Windows. In the future I will expect you to know to use these. 
 
 ```bash
-curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7.5-notes/refs/heads/main/week-4/prep/scripts/prelim.sh | sh
+curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7-5-notes/refs/heads/main/week-4/prep/scripts/prelim.sh | sh
 ```
 
 Next, you need to run this command:
@@ -110,7 +110,7 @@ In enterprise environments, automation becomes critical and is one of the main t
 
 Before we dive into Terraform, let's do some initial setup. We will be using the TheoWAF folder, specifically the Terraform subdirectory. We will also be working in VS Code. If you do not have Git Bash (as an administrator) or Terminal open, go ahead and open it now. Run the following 3 commands: 
 
-1. `cd ~/Documents/TheoWAF/class7.5/GCP/Terraform` will take you to the correct directory 
+1. `cd ~/Documents/TheoWAF/class7-5/gcp/Terraform` will take you to the correct directory 
 2. `mkdir terraform-041126` will make a directory for today (though you can call it whatever you like)
 3. `code terraform-041126/` will open that directory with VS Code
 

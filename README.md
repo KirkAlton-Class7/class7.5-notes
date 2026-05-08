@@ -1,4 +1,4 @@
-# Class 7.5 / SEIR-1 Notes 
+# Class7-5 / SEIR-1 Notes 
 
 ## Why
 If I am teaching, I will typically use these notes to organize class structure, provide documentation, static assets, artifacts, scripts, etc. 

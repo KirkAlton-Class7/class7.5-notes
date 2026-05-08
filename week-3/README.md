@@ -1,4 +1,4 @@
-# Class 7.5 / SEIR-1: Week 3 prep notes
+# Class7-5 / SEIR-1: Week 3 prep notes
 
 ## Table of Contents
 

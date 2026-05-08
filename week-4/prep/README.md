@@ -1,4 +1,4 @@
-# Class 7.5 / SEIR-1: Week 4 Prep Notes
+# Class7-5 / SEIR-1: Week 4 Prep Notes
 
 ---
 
@@ -43,14 +43,14 @@ The script checks the following:
 
 - Google Cloud SDK (in particular, `gcloud`) is installed and authenticated
 - Terraform binary is installed and up to date
-- TheoWAF folder present at `~/Documents/TheoWAF/class7.5/GCP/Terraform`
+- TheoWAF folder present at `~/Documents/TheoWAF/class7-5/gcp/Terraform`
 - Creates a `.gitignore` file
 - Verifies a JSON token is present in the `Terraform` directory
 
 It will create the TheoWAF folder structure if needed and will download a `.gitignore` file configured for Terraform projects.
 
 ```bash
-curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7.5-notes/refs/heads/main/week-4/prep/scripts/prelim.sh | sh
+curl https://raw.githubusercontent.com/aaron-dm-mcdonald/class7-5-notes/refs/heads/main/week-4/prep/scripts/prelim.sh | sh
 ```
 
 ---
@@ -278,7 +278,7 @@ This [video](https://www.youtube.com/watch?v=ephId3mYu9o) may help, but honestly
 In your CLI (Git Bash or Terminal), run `pwd` and `ls` and note the output. Then navigate to the correct folder:
 
 ```bash
-cd $HOME/Documents/TheoWAF/class7.5/GCP/Terraform
+cd $HOME/Documents/TheoWAF/class7-5/gcp/Terraform
 ```
 
 Run `pwd` and `ls` again. You should see a `.json` file, a `.gitignore`, and a directory named `terraform-<something>` created by the `prelim.sh` script. Move into that directory:
